@@ -1,0 +1,47 @@
+/*alinear los elementos de la pagina text-align sirve para alinear texto e imagenes */
+body{
+    text-align: center;
+
+}
+/*para asociar */
+.cuadrado-color{
+	/*escogiendo color en ingles*/
+	background-color: #936c6c;
+	/*dar espacio*/
+	padding-bottom: 20px;
+}
+p{
+	color: #990000;
+
+}
+/*escogiendo tipo de letra*/
+h1{
+	font-family: 'Rye';
+}
+h4{
+	font-family: 'Lobster';
+}
+p{
+	font-family: 'Pacifico';
+}
+h3{
+	font-family: 'Cinzel', serif;
+}
+/*cambiar tamaño de todas las imagen
+img{
+	width: 400px;  ancho
+	height: 400px; alto
+}*/
+
+/*cambiando tamaño de 1 imagen*/
+.foto-cantante{
+	width: 1280px; 
+	height: 400px;
+}
+
+/* hacer el separador... pintar el borde*/
+.enlaces{
+	/*distintos tipos de líneas: solid, dotted, dashed*/
+	border-top: 1px dashed black;
+	/*buscar types bordes css */
+}
